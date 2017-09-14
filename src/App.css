@@ -1,0 +1,39 @@
+
+body {
+  background: linear-gradient(#38769F, #38769F);
+}
+
+.app-content {
+  width: 600px;
+  margin: 100px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .app-content {
+    margin: 20px 20px 0;
+    width: auto;
+  }
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.btn-event {
+  width: 50%;
+  margin: 5px;
+}
+
+.btn-timer {
+  width: 33%;
+  margin: 5px;
+}
+
+.row h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 50px;
+}
