@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimerHeader = () => (
   <div className="row">
-    <h1>POMODORO CLOCK</h1>
+    <h1>POMODORO REACT</h1>
   </div>
 )
 
